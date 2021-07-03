@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="css/styles.css">
+    <title>Contact</title>
+  </head>
+
+  <body>
+    <header>
+        <nav>
+            <ul class="nav">
+                <li><a href="index.html">Home pagina</a></li>
+                <li><a href="about.html">Pagina over mezelf</a></li>
+                <li><a href="trainingen.html">Trainingen</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+        <h1 class="centreer">Contact formulier</h1>
+    </header>
+    <main>
+        <section class="contact_form">
+            <form name="contact" method="POST" data-netlify="true">
+                <!-- naam -->
+                <ul>
+                    <li>
+                        <label for "name">Naam:</label>
+                        <input type="text" id="name" name="naam">
+                    </li>
+
+                    <!--email-adres-->
+                    <li>
+                        <label for "email">Enter your mail:</label>
+                        <input type="email" id="email" name="email">
+                    </li>
+                    <!--tekstinvoer-->
+                    <li>
+                        <label for "message">Type hier je bericht:</label>
+                        <textarea id="message" name="meassage"></textarea>
+                    </li>
+                    <!-- submit-->
+                    <li>
+                        <label for "submit"></label>
+                        <button type="submit">Submit</button>
+                    </li>
+                </ul>
+            </form>
+        </section>
+    </main>
+    <footer>
+        <h3 class="border"><em>Copyright &copy; 2021 Jolanda Besteman</em></h3>
+    </footer>
+  </body>
+</html>
